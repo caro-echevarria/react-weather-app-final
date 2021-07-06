@@ -16,7 +16,7 @@ function App() {
           </a>
           <br />
           <a
-            href="https://github.com/caro-echevarria/weather-app-react"
+            href="https://github.com/caro-echevarria/react-weather-app-final"
             target="_blank"
             rel="noreferrer"
           >
