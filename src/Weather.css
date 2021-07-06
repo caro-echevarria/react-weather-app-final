@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.weatherInfo {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  box-shadow: 3px 5px 5px 3px #94927e;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
+}
+
+.weather-temperature .active {
+  color: rgb(112, 117, 122);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-temperature a {
+  color: #068b78;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.conditions {
+  text-align: right;
+}
+
+h1 {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+h1,
+strong {
+  color: #068b78;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  color: rgb(112, 117, 122);
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 18px;
+  line-height: 18px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5px;
+}
+
+small a {
+  text-decoration: none;
+  color: #068b78;
+  font-weight: bolder;
+}
+
+small a:hover {
+  text-decoration: none;
+  color: #068b78;
+  font-weight: bolder;
+}
+
+input[type="search"] {
+  border: 1px solid #068b78;
+  background-color: #f4f6f6;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 18px;
+  max-width: 100%;
+  color: #068b78;
+  margin-bottom: 4px;
+}
+
+input[type="search"]:hover {
+  border: 1px solid #068b78;
+}
+
+#search-button {
+  border: 1px solid #068b78;
+  padding: 4px 10px;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background-color: #f7f2f2;
+  color: #068b78;
+}
+
+#search-button:hover {
+  color: #f7f2f2;
+  background-color: #068b78;
+}
+
+#current-button {
+  border: 1px solid #068b78;
+  padding: 4px 10px;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background-color: #068b78;
+  color: #f7f2f2;
+}
+
+#current-button:hover {
+  color: #068b78;
+  background-color: #f4f6f6;
+}
