@@ -22,12 +22,13 @@ body {
   margin-right: 10px;
   height: 64px;
   width: 64px;
+  display: inline-block;
 }
 
 .weather-temperature strong {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1;
+  font-size: 52px;
+  font-weight: 300;
+  line-height: 0.8;
 }
 
 .weather-temperature .units {
