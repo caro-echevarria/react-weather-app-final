@@ -18,14 +18,9 @@ body {
   margin-bottom: 20px;
 }
 
-.weather-temperature img {
-  margin-right: 10px;
-  height: 64px;
-  width: 64px;
-  display: inline-block;
-}
-
-.weather-temperature strong {
+.temperature {
+  font-weight: bold;
+  color: #068b78;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -33,26 +28,13 @@ body {
   margin-left: 10px;
 }
 
-.weather-temperature .units {
-  position: relative;
-  font-size: 16px;
-  top: -32px;
-}
-
-.weather-temperature .Active {
-  color: rgb(112, 117, 122);
-  cursor: default;
-  text-decoration: none;
-}
-
-.weather-temperature .Active:hover {
-  text-decoration: none;
-}
-
-.weather-temperature a {
+.unit {
   color: #068b78;
-  font-weight: bolder;
-  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
 
 .Conditions {
