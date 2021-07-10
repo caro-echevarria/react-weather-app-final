@@ -21,11 +21,18 @@ body {
 .temperature {
   font-weight: bold;
   color: #068b78;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 58px;
+  line-height: 60px;
   margin-left: 5px;
   font-weight: 400;
   margin-left: 10px;
+}
+
+canvas {
+  display: inline-block;
+  margin-right: 30px;
+  height: 75px;
+  width: 75px;
 }
 
 .unit {
@@ -134,4 +141,14 @@ input[type="search"]:hover {
 #current-button:hover {
   color: #068b78;
   background-color: #f4f6f6;
+}
+
+#c {
+  color: #068b78;
+  text-decoration: none;
+}
+
+#f {
+  color: rgb(112, 117, 122);
+  text-decoration: none;
 }
