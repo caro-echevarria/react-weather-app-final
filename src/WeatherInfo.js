@@ -4,7 +4,7 @@ import FormattedDate from "./FormattedDate";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInformation">
-      <div className="overview">
+      <div className="Overview">
         <h1>{props.data.city}</h1>
         <ul>
           <li>
@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </ul>
       </div>
       <div className="row">
-        <div className="col-5">
+        <div className="col-8">
           <div className="clearfix weather-temperature">
             <img
               src={props.data.icon}
@@ -34,20 +34,14 @@ export default function WeatherInfo(props) {
             </div>
           </div>
         </div>
+
         <div className="col-4">
-          <h7>
-            <strong>
-              {" "}
-              Feels like: <span>{props.data.feelsLike}</span>
-            </strong>
-          </h7>
           <ul>
-            <li>{props.data.description}</li>
-          </ul>
-        </div>
-        <div className="col-3">
-          <ul>
-            <span className="conditions">
+            <span className="Conditions">
+              <li>
+                {" "}
+                <strong>{props.data.description}</strong>
+              </li>
               <li>
                 Humidity:
                 <span>{props.data.humidity}</span>%
