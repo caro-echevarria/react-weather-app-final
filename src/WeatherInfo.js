@@ -12,8 +12,8 @@ export default function WeatherInfo(props) {
           </li>
         </ul>
       </div>
-      <div className="row">
-        <div className="col-8">
+      <div className="row mt-3">
+        <div className="col-7">
           <div className="clearfix weather-temperature">
             <img
               src={props.data.icon}
@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
             <div className="float-left">
               <strong>{Math.round(props.data.temperature)}</strong>
               <span className="units">
-                <a href="alt" id="celsius-link" className="active">
+                <a href="alt" id="celsius-link" className="Active">
                   °C
                 </a>{" "}
                 |
@@ -35,7 +35,7 @@ export default function WeatherInfo(props) {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-5">
           <ul>
             <span className="Conditions">
               <li>
