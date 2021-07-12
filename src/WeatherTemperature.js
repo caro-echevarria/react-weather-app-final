@@ -31,13 +31,16 @@ export default function WeatherTemperature(props) {
         <span className="temperature">
           {Math.round(props.celsius * 1.8 + 32)}{" "}
         </span>
-        <a href="/" id="c" className="link" onClick={convertToCelsius}>
-          °C
-        </a>
-        <span className="line"> |</span>
-        <a href="/" id="f" className="link" onClick={convertToFahrenheit}>
-          °F
-        </a>
+        <span className="unit">
+          {" "}
+          <a href="/" id="c" className="link" onClick={convertToCelsius}>
+            °C
+          </a>{" "}
+          |{" "}
+          <a href="/" id="f" className="link" onClick={convertToFahrenheit}>
+            °F
+          </a>
+        </span>
       </span>
     );
   }
