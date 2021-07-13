@@ -7,12 +7,14 @@ export default function WeatherForecast() {
     <div className="WeatherForecast">
       <div className="row">
         <div className="col">
-          <div className="WeatherForecast-day">Tue</div>
-          <WeatherIcon code="11d" size={25} />
-          <div className="WeatherForecast-temp">
-            <span className="WeatherForecast-temp-max">19°</span>{" "}
-            <span className="WeatherForecast-temp-min">10°</span>
-          </div>
+          <ul>
+            <li className="WeatherForecast-day">Tue</li>
+            <WeatherIcon code="11d" size={25} />
+            <li className="WeatherForecast-temp">
+              <span className="WeatherForecast-temp-max">19°</span>{" "}
+              <span className="WeatherForecast-temp-min">10°</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
