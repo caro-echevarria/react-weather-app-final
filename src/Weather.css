@@ -29,10 +29,7 @@ body {
 }
 
 canvas {
-  display: inline-block;
-  margin-right: 30px;
-  height: 75px;
-  width: 75px;
+  margin: 10px auto;
 }
 
 .unit {
